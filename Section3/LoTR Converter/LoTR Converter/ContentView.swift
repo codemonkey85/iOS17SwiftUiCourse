@@ -16,7 +16,7 @@ struct ContentView: View {
             // Background image
             Image("background")
                 .resizable()
-                .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                .edgesIgnoringSafeArea(.all)
             
             VStack {
                 // Prancing Pony image
